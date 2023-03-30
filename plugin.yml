@@ -4,5 +4,3 @@ deps:
 run:
   bash:
     path: run.sh
-  sh:
-    path: run.sh
