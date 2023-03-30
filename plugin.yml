@@ -1,13 +1,13 @@
-deps:
-  apt:
-  - terraform
-  brew:
-  - checkov
+# deps:
+#   apt:
+#   - terraform
+#   brew:
+#   - checkov
 run:
   bash:
     path: run.sh
 
 inputs:
-  message:
+  tag:
     type: string
-    description: provide a hello world message
+    description: docker
