@@ -6,3 +6,8 @@ deps:
 run:
   bash:
     path: run.sh
+
+inputs:
+  message:
+    type: string
+    description: provide a hello world message
