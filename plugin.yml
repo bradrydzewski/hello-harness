@@ -1,4 +1,6 @@
 deps:
+  apt:
+  - terraform
   brew:
   - checkov
 run:
