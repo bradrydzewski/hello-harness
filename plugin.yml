@@ -6,6 +6,8 @@
 run:
   bash:
     path: run.sh
+  dockerfile:
+    path: Dockerfile
 
 inputs:
   tag:
