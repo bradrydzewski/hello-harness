@@ -1,4 +1,6 @@
-
+deps:
+  brew:
+  - checkov
 run:
   bash:
     path: run.sh
