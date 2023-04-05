@@ -3,6 +3,10 @@ run:
   bash:
     path: run.sh
 
+deps:
+  apt:
+  - ruby
+
 inputs:
   tag:
     type: string
