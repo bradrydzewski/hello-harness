@@ -7,3 +7,6 @@ inputs:
   tag:
     type: string
     description: docker tag
+
+  greeting:
+    type: string
