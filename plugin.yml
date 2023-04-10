@@ -3,12 +3,7 @@ run:
   bash:
     path: run.sh
 
-# dummy dependency just to show this is possible
-deps:
-  apt:
-  - ruby
-
 inputs:
   tag:
     type: string
-    description: docker
+    description: docker tag
